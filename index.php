@@ -10,4 +10,4 @@
 
 </body>
 </html>
-<?php mysql_close($connection); ?>
+<?php mysqli_close($connection); ?>
