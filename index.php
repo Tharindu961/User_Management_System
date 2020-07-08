@@ -17,6 +17,10 @@
 					<label for="">Username</label>
 					<input type="text" name="email" id="" placeholder="Email Address">
 				</p>
+				<p>
+					<label for="">Password</label>
+					<input type="password" name="password" id="" placeholder="Password">
+				</p>
 			</fieldset>
 		</form>
 
