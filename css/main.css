@@ -17,6 +17,12 @@ input {
 	box-sizing: border-box;
 }
 
+p.error {
+	background: red;
+	color: white;
+	padding: 10px;
+}
+
 button {
 	width: 100;
 	padding: 5PX;
