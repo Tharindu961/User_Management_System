@@ -1,4 +1,4 @@
-<? php require_once('inc/connection.php'); ?>
+<?php require_once('inc/connection.php'); ?>
 
 <!DOCTYPE html>
 <html>
@@ -32,4 +32,5 @@
 	</div>
 </body>
 </html>
+
 <?php mysqli_close($connection); ?>
