@@ -16,3 +16,11 @@ input {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+button {
+	width: 100;
+	padding: 5PX;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
