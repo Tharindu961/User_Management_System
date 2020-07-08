@@ -14,6 +14,8 @@
 			<fieldset>
 				<legend><h1>Log In</h1></legend>
 
+				<p class="error">Invalid Username / Password</p>
+
 				<p>
 					<label for="">Username</label>
 					<input type="text" name="email" id="" placeholder="Email Address">
