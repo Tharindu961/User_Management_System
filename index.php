@@ -21,6 +21,10 @@
 					<label for="">Password</label>
 					<input type="password" name="password" id="" placeholder="Password">
 				</p>
+				<p>
+					<button type="submit" name="submit">Log In</button>
+				</p>
+
 			</fieldset>
 		</form>
 
