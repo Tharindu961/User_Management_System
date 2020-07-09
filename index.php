@@ -14,7 +14,7 @@
 			<fieldset>
 				<legend><h1>Log In</h1></legend>
 
-				<p class="error">Invalid Username / password</p>
+				<!-- <p class="error">Invalid Username / password</p> -->
 
 				<p>
 					<label for="">Username</label>
