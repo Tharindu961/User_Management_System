@@ -1,5 +1,15 @@
 <?php require_once('inc/connection.php'); ?>
 
+<?php 
+
+	// check for from submission
+	if (isset($_POST['submit'])){
+
+		// check if the user
+
+	}
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
