@@ -7,7 +7,11 @@
 
 		// check if the username and password has been entered
 		if (!isset($_POST['email']) || strlen(trim($_POST['email'])) < 1 ) {
-			
+			$errors[] = 'Username is Missing / Invalid';
+		}
+
+		if (!isset($_POST['password']) || strlen(trim($_POST['password'])) <1 ) {
+			$errors[] = 'Password is Missing / Invalid';
 		}
 
 	}
