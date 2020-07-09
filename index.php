@@ -5,7 +5,10 @@
 	// check for from submission
 	if (isset($_POST['submit'])){
 
-		// check if the user
+		// check if the username and password has been entered
+		if (!isset($_POST['email']) || strlen(trim($_POST['email'])) < 1 ) {
+			
+		}
 
 	}
 
