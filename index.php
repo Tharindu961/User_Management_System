@@ -21,7 +21,7 @@
 			// save username and password into variable
 			$email = mysqli_real_escape_string($connection, $_POST['email']);
 			$password = mysqli_real_escape_string($connection, $_POST['password']);
-			$hashed_password = shal($password);
+			$hashed_password = sha1($password);
 
 			//prepare database query
 			$query = "SELECT * FROM user WHERE email = '{$email}' AND password = '{$hashed_password}' LIMIT 1";
@@ -50,11 +50,11 @@
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Log In - User Management System</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="login">
