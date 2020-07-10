@@ -37,11 +37,11 @@
 					header('Location: users.php');
 				} else {
 					// user name and password invalid
-					$error[] = 'Invalid Username / Password';
+					$errors[] = 'Invalid Username / Password';
 
 				}
 			} else {
-				$error[] = 'Databasee query failed';
+				$errors[] = 'Databasee query failed';
 			}
 
 		}
