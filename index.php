@@ -20,7 +20,7 @@
 		if (empty($)){
 			// save username and password into variable
 			$email = mysqli_real_escape_string($connection, $_POST['email']);
-			$password = mysqli_re
+			$password = mysqli_real_escape_string($connection, $_POST['password']);
 
 
 
