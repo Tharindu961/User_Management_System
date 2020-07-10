@@ -33,6 +33,8 @@
 
 				if (mysqli_num_rows($result_set) == 1) {
 					// valid user found
+					//redirect to users.php
+					header('Location: users.php');
 				} else {
 					// user name and password invalid
 					$error[] = 'Invalid Username / Password';
