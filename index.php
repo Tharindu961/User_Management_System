@@ -65,7 +65,7 @@
 
 				<?php
 					if (isset($erros) && !empty($errors)) {
-						
+						echo '<p class="error">Invalid Username / Password</p>';
 					}
 				?>
 			
