@@ -21,6 +21,10 @@
 			// save username and password into variable
 			$email = mysqli_real_escape_string($connection, $_POST['email']);
 			$password = mysqli_real_escape_string($connection, $_POST['password']);
+			$hashed_password = shal($password);
+
+			//prepare database query
+			
 
 
 
