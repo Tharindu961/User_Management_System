@@ -12,19 +12,19 @@
 			$errors[] = 'Username is Missing / Invalid';
 		}
 
-		if (!isset($_POST['password']) || strlen(trim($_POST['password'])) <1 ) {
+		if (!isset($_POST['password']) || strlen(trim($_POST['password'])) < 1 ) {
 			$errors[] = 'Password is Missing / Invalid';
 		}
 
 		// check if there are any errors in form
-		if (empty($)){
+		if (empty($errors)){
 			// save username and password into variable
 			$email = mysqli_real_escape_string($connection, $_POST['email']);
 			$password = mysqli_real_escape_string($connection, $_POST['password']);
 			$hashed_password = shal($password);
 
 			//prepare database query
-			
+			$query = "SELECT * FROM user WHERE email = '{$email}' AND password = '{$hashed_password}' LIMIT 1";
 
 
 
