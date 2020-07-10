@@ -38,6 +38,8 @@
 					$error[] = 'Invalid Username / Password';
 
 				}
+			} else {
+				$error[] = 'Databasee query failed';
 			}
 
 
