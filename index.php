@@ -5,6 +5,8 @@
 	// check for from submission
 	if (isset($_POST['submit'])){
 
+		$errors = array();
+
 		// check if the username and password has been entered
 		if (!isset($_POST['email']) || strlen(trim($_POST['email'])) < 1 ) {
 			$errors[] = 'Username is Missing / Invalid';
@@ -12,6 +14,16 @@
 
 		if (!isset($_POST['password']) || strlen(trim($_POST['password'])) <1 ) {
 			$errors[] = 'Password is Missing / Invalid';
+		}
+
+		// check if there are any errors in form
+		if (empty($)){
+			// save username and password into variable
+			$email = mysqli_real_escape_string($connection, $_POST['email']);
+			$password = mysqli_re
+
+
+
 		}
 
 	}
