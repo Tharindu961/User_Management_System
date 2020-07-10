@@ -35,7 +35,8 @@
 					// valid user found
 				} else {
 					// user name and password invalid
-					
+					$error[] = 'Invalid Username / Password';
+
 				}
 			}
 
