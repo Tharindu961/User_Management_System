@@ -63,6 +63,11 @@
 			<fieldset>
 				<legend><h1>Log In</h1></legend>
 
+				<?php
+					if (isset($erros) && !empty($errors)) {
+						
+					}
+				?>
 			
 
 				<p>
