@@ -30,6 +30,13 @@
 
 			if ($result_set) {
 				//query succedful
+
+				if (mysqli_num_rows($result_set) == 1) {
+					// valid user found
+				} else {
+					// user name and password invalid
+					
+				}
 			}
 
 
