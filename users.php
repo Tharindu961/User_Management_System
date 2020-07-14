@@ -7,6 +7,7 @@
 <body>
 	<header>
 		<div class="appname">User Managemnt System</div>
+		<div class="loggedin">Welcome Username! <a href="logout.php">Log Out</a></div>
 	</header>
 	<h1>Users</h1>
 </body>
