@@ -32,6 +32,15 @@ button {
 	box-sizing: border-box;
 }
 
+header {
+	background: #eee;
+	overflow: auto;
+}
+
 header .appname {
 	float: left;
+}
+
+header .loggedin {
+	float: right;
 }
