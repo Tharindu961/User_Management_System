@@ -1,12 +1,15 @@
 <?php session_start(); ?>
 <?php require_once('inc/connection.php'); ?>
+<?php
+	// checking is s user is logged in
 
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>Users</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet"  href="css/main.css">
 </head>
 <body>
 	<header>
