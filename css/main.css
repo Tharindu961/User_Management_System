@@ -22,6 +22,10 @@ input {
 	font-size: 14px;
 }
 
+p {
+	margin-top: 15px;
+}
+
 p.error {
 	background-color: red;
 	color: white;
