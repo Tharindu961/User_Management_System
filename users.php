@@ -2,7 +2,9 @@
 <?php require_once('inc/connection.php'); ?>
 <?php
 	// checking is s user is logged in
-
+	if (!isset($_SESSION['user_id'])) {
+		header('Location: index.php');
+	}
 ?>
 <!DOCTYPE html>
 <html>
