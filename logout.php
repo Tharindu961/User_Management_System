@@ -11,6 +11,6 @@
 	session_destroy();
 
 
-	header('Location: index.php');s
+	header('Location: index.php?logout=yes');s
 
 ?>
