@@ -73,6 +73,13 @@
 						echo '<p class="error">Invalid Username / Password</p>';
 					}
 				?>
+
+				<?php
+				if(isset($_GET['logout'])) {
+					
+				}
+
+				?>
 			
 
 				<p>
