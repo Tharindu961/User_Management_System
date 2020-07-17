@@ -32,6 +32,12 @@ p.error {
 	padding: 10px;
 }
 
+p.info {
+	background-color: green;
+	color: white;
+	padding: 10px;
+}
+
 button {
 	width: 100;
 	padding: 5PX;
