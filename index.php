@@ -76,7 +76,7 @@
 
 				<?php
 				if(isset($_GET['logout'])) {
-					
+					echo '<p class="info">You have succedfully logged out from the system</p>';
 				}
 
 				?>
