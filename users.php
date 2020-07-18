@@ -20,7 +20,7 @@
 	</header>
 
 	<main>
-	<h1>Users</h1>
+	<h1>Users <span><a href="add-user.php">+ Add New</a></span></h1>
 
 	</main>
 </body>
