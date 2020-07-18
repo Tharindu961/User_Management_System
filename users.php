@@ -30,6 +30,8 @@
 			<th>Edit</th>
 			<th>Delete</th>
 		</tr>
+
+		<?php echo $user_list; ?>
 		
 	</table>
 
