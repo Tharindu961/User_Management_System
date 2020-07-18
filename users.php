@@ -13,6 +13,9 @@
 	$users = mysqli_query($connection, $query);
 
 	if ($users) {
+		while ($user = mysqli_fetch_assoc($users)) {
+			
+		}
 
 	} else {
 		echo "Database query failed.";
