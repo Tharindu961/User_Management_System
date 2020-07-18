@@ -5,6 +5,11 @@
 	if (!isset($_SESSION['user_id'])) {
 		header('Location: index.php'); 
 	}
+
+	$user_list = '';
+
+	//getting the list of users
+	$query = "SELECT * FROM user WHERE is_deleted=0 ORDER BY first_name";
 ?>
 <!DOCTYPE html>
 <html lang="en">
