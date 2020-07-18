@@ -22,6 +22,10 @@
 	<main>
 	<h1>Users <span><a href="add-user.php">+ Add New</a></span></h1>
 
+	<table class="masterlist">
+		
+	</table>
+
 	</main>
 </body>
 </html>
