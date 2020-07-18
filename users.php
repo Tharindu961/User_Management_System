@@ -14,7 +14,12 @@
 
 	if ($users) {
 		while ($user = mysqli_fetch_assoc($users)) {
-			
+			$user_list .= "<tr>";
+			$user_list .= "<td>{$user['first_name']}</td>";
+			$user_list .= "<td>{$user['last_name']}</td>";
+			$user_list .= "<td>{$user['last_login']}</td>";
+			$user_list .= "<td><a href=""</td>";
+			$user_list .= "</tr>";
 		}
 
 	} else {
