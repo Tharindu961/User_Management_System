@@ -3,11 +3,11 @@
 <?php
 	// checking is s user is logged in
 	if (!isset($_SESSION['user_id'])) {
-		header('Location: index.php');
+		header('Location: index.php'); 
 	}
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Users</title>
@@ -18,6 +18,10 @@
 		<div class="appname">User Managemnt System</div>
 		<div class="loggedin">Welcome Username <?php $_SESSION['first_name'];?>! <a href="logout.php">Log Out</a></div>
 	</header>
+
+	<main>
 	<h1>Users</h1>
+
+	</main>
 </body>
 </html>
