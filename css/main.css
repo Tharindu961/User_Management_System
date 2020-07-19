@@ -67,8 +67,13 @@ main {
 
 main h1 {
 	margin-bottom: 20px;
+	font-size: 50px;
 }
 
 main h1 span {
 	font-size: 20px;
+}
+
+table.masterlist {
+	width: 100%;
 }
