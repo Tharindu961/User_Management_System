@@ -76,10 +76,12 @@ main h1 span {
 
 table.masterlist {
 	width: 100%;
+	border-collapse: collapse;
 }
 
 table.masterlist th {
 	background: #aaa;
+	text-align: left;
 }
 
 table.masterlist th, table.masterlist td {
