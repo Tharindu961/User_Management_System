@@ -64,3 +64,11 @@ main {
 	width: 1000px;
 	margin: 30px auto;
 }
+
+main h1 {
+	margin-bottom: 20px;
+}
+
+main h1 span {
+	font-size: 20px;
+}
