@@ -77,3 +77,11 @@ main h1 span {
 table.masterlist {
 	width: 100%;
 }
+
+table.masterlist th {
+	background: #aaa;
+}
+
+table.masterlist th, table.masterlist td {
+	padding: 10px;
+}
