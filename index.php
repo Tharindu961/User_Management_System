@@ -31,7 +31,7 @@
 
 			$result_set = mysqli_query($connection, $query);
 
-			if ($result_set) {
+			verify_query($result_set);
 				//query succedful
 
 				if (mysqli_num_rows($result_set) == 1) {
@@ -45,9 +45,7 @@
 
 					$result_set = mysqli_query($connection, $query);
 
-					if(!$result_set) {
-						die("Database query failed.");
-					}
+					verify_query($result_set);
 
 					//redirect to users.php
 					header('Location: users.php');
@@ -56,9 +54,7 @@
 					$errors[] = 'Invalid Username / Password';
 
 				}
-			} else {
-				$errors[] = 'Databasee query failed';
-			}
+			
 
 		}
 

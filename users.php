@@ -10,7 +10,7 @@
 	$user_list = '';
 
 	//getting the list of users
-	$query = "SELECT * FROM users WHERE is_deleted=0 ORDER BY first_name";
+	$query = "SELECT * FROM user WHERE is_deleted=0 ORDER BY first_name";
 	$users = mysqli_query($connection, $query);
 
 	verify_query($users);
