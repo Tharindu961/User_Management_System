@@ -44,6 +44,10 @@
 
 					$result_set = mysqli_query($connection, $query);
 
+					if(!$result_set) {
+						die("Database query failed.");
+					}
+
 					//redirect to users.php
 					header('Location: users.php');
 				} else {
