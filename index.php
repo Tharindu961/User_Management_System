@@ -42,6 +42,8 @@
 					$query = "UPDATE users SET last_login = NOW() ";
 					$query .= "WHERE id = {$_SESSION['user_id']} LIMIT 1";
 
+					$result_set = mysqli_query($connection, $query);
+
 					//redirect to users.php
 					header('Location: users.php');
 				} else {
