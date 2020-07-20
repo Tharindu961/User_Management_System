@@ -39,7 +39,8 @@
 					$_SESSION['user_id'] = $user['id'];
 					$_SESSION['first_name'] = $user['first_name'];
 					// updating last login
-					$query = "UPDATE users SET last_login = NOW()"
+					$query = "UPDATE users SET last_login = NOW() ";
+					$query .= "WHERE id = {$_SESSION['user_id']} LIMIT 1";
 
 					//redirect to users.php
 					header('Location: users.php');
